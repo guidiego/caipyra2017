@@ -7,8 +7,6 @@ global.$ = require('gulp-load-plugins')({
     }
 });
 
-console.log($)
-
 global.CONFIG = require('./config');
 
 requiredir('./tasks')
