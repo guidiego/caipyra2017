@@ -7,14 +7,11 @@
   <title>Caipyra 2017</title>
 
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600i|Roboto:500,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="/static/css/main.min.css">
 </head>
 <body>
-  <main>
-    <img src="http://2016.caipyra.python.org.br/img/caipyra_logo_2016.png" alt="eee">
-    <h2>O único evento de Python com Quentão e Paçoquinha!</h2>
-    <h4>De 23 à 27 de junho em Ribeirão Preto</h4>
-  </main>
+  {{> banners/caipyra }}
 
   {{> event_days/tutorial }}
 
@@ -22,6 +19,9 @@
 
   {{> event_days/sprints }}
 
+  {{> banners/organization }}
+
+  {{> banners/sponsors }}
   <script src="static/js/main.min.js"></script>
 </body>
 </html>
