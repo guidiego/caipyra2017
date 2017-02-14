@@ -5,7 +5,7 @@
   "repository": "git@github.com:guidiego/caipyra2017.git",
   "author": "Guilherme Diego <guidiego.expgames@gmail.com>",
   "license": "MIT",
-  "scripts" : {
+  "scripts": {
     "start": "gulp",
     "build": "gulp build"
   },
@@ -19,6 +19,7 @@
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0",
     "gulp-uglify": "^2.0.1",
+    "gulp-webserver": "^0.9.1",
     "requiredir": "^1.0.7"
   }
 }
